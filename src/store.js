@@ -11,8 +11,8 @@ export const history = createBrowserHistory();
 export default initialState => {
   return createStore(
     combineReducers({
+      router: connectRouter(history),
       ...reducers,
-      router: connectRouter(history)
     }),
     initialState,
     compose(

@@ -8,15 +8,13 @@ const Home = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Simple provisioning app
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="provision"
         >
-          Learn React
+          Go to provisioning
         </a>
       </header>
     </div>

@@ -21,7 +21,7 @@ const Provisioner = ({isLoading, location, error, data}) => {
       <div>
         <p style={bodyStyle}>
           {!elementKey &&
-            'Add ?element=<someElementKey> to URL to kick tihngs off'
+            'Add ?element=<someElementKey> to the URL to kick things off'
           }
           {error && 
             <>
